@@ -27,6 +27,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
+
 group :test do
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
